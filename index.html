@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6c50941745.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./bootstrap.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light nav">
+      <div class="logo">
+        <i class="fa-regular fa-circle-user"></i>
+    </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                Shop for
+              </a>
+              <div class="dropdown-menu roy">
+                <a class="dropdown-item" href="#mens">Mens</a>
+                <a class="dropdown-item" href="#womens">Womens</a>
+                <!-- <div class="dropdown-divider"></div> -->
+                <a class="dropdown-item" href="#kids">Kids</a>
+              </div>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link disabled">Cart</a>
+            </li>btn btn-outline-success my-2 my-sm-0 -->
+          </ul>
+          <!-- <ul class="navbar-nav ml-auto"> -->
+            <div class="search-container mx-auto ">
+              <input type="text" placeholder="  ">
+              <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            
+        </form>
+            <ul class="navbar-nav ml-auto ">    
+            <li class="nav-item-w ">
+              <a href="./wishlist.html" class="heart">
+                <i class="fa-solid fa-heart">
+              
+              </i>
+            </a>
+              </li>
+              <li class="nav-item">
+                <a href="./cart.html" class="heart">
+                <i class="fa-solid fa-cart-shopping"></i>
+              </li>
+            </a>
+            </ul>
+          
+        </div>
+      </nav> 
+
+      
+      <div id="carouselExampleCaptions" class="carousel slide slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner ">
+          <div class="carousel-item active item">
+            <img src="https://i.pinimg.com/736x/4a/e5/d3/4ae5d3074757a801a194a46b84f095cb.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-dark car1">
+              <h5>Opening sale offer</h5>
+              <p>Flat 50% off on any item you get on first day of sales.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://imgs.search.brave.com/N99dcMU7KUtUCB2QJNu_BYkvI85csA0F0SGMTfDick8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1wc2Qvc3Vt/bWVyLXNhbGUtbGFu/ZGluZy1iYW5uZXIt/dGVtcGxhdGVfMjMt/MjE0ODYyMjcwNC5q/cGc_c2VtdD1haXNf/aHlicmlk" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <h5>Summer sale is live!</h5>
+              <p>Get upto 50% off this summer.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://imgs.search.brave.com/WTmMqvzkhLAAzzCeO1HCRd-XsB-PbS8CmuwMmqG2_rQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudGVtcGxhdGUu/bmV0LzEwODQ0NC9m/cmVlLW1vZGVybi1m/YXNoaW9uLWJhbm5l/ci1kbHFpdC5qcGVn" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <h5>Hot fashion deals</h5>
+              <p>Grab the deals on first day.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-control">
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
+          <span class="carousel-control-prev-icon" ></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
+          <span class="carousel-control-next-icon" ></span>
+          <span class="sr-only">Next</span>
+        </button>
+        </div>
+      </div>
+
+     <!-- categories -->
+      <h2 class="shop">Shop By Category</h2>
+      <a href="#mens" class="link">
+      <div class="d-flex flex-row">
+          <div class="cards shadow">
+        <img src="https://imgs.search.brave.com/Qa4p2OF0PUwtEVPBMazsKnJjme7KVblnw5v33TbjeR8/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAyLzk4LzczLzI3/LzM2MF9GXzI5ODcz/Mjc5N19heXQ2TWdG/MHRUZ1hSQ25MeHFY/YVVSUzZaQ1d6dHZS/Si5qcGc" class="card-img" alt="...">
+        </a>
+        <div class="card-body">
+          <h4 class="card-text">MENS</h4>
+        
+        </div>
+        
+      </div>
+      <div class="cards shadow">
+        
+        <a href="#womens" class="link">
+        <img src="https://imgs.search.brave.com/nCYBVCbzgtt8Y5cv1afGU5MlEJS2QB295ylZWQmzuMQ/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9m/YXNoaW9uLXBob3Rv/LWxvdmVseS1icnVu/ZXR0ZS13b21hbi1z/cHJpbmctb3V0Zml0/LXBvc2luZy1ob2xk/aW5nLXdoaXRlLWJh/Zy1mdWxsLWxlbmdo/dF8yNzM0NDMtNDEy/Mi5qcGc_c2VtdD1h/aXNfaHlicmlk" class="card-img" alt="..."></a>
+        <div class="card-body">
+          <p class="card-text">WOMENS</p>
+        </div>
+       
+      </div>
+      <div class="cards shadow">
+        <a href="#kids">
+        <img src="https://imgs.search.brave.com/puItbbdAf57czfNDZkvGFGq67kpxIDRoQlPQt-pHEZ4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9mYXNoaW9uLWNv/bmNlcHQtc3R5bGlz/aC1jaGlsZHJlbi1w/b3NpbmctbGlnaHQt/Z3JleS1iYWNrZ3Jv/dW5kXzQ5NTQyMy04/MDI4MS5qcGc_c2Vt/dD1haXNfaHlicmlk" class="card-img" alt="..."></a>
+        <div class="card-body">
+          <p class="card-text">KIDS</p>
+        </div>
+      </div>
+      </div>
+
+
+      <!-- Brands -->
+      <h2 class="shops">Shop By Brands</h2>
+    <div class="bbox">
+        <div class="d-flex flex-row shadow-lg sak" >
+          <div class="card">
+            <img src="https://imgs.search.brave.com/HiqO4FvZ7IOswnYInLW_1OP61pXiELhOlzZ1iFnmicA/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9zcC1h/by5zaG9ydHBpeGVs/LmFpL2NsaWVudC90/b193ZWJwLHFfZ2xv/c3N5LHJldF9pbWcs/d183NTAsaF80MDAv/aHR0cDovL2Fzc2V0/cy5kZXNpZ25oaWxs/LmNvbS9kZXNpZ24t/YmxvZy93cC1jb250/ZW50L3VwbG9hZHMv/MjAxOS8wNC8xMC5w/bmc" class="card-imgs" alt="...">
+            <div class="card-body">
+              <p class="card-text">H&M</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://imgs.search.brave.com/UEkthWufSeaTMqX6rTykJpLtf_nL-FSRc6VvdbUfHJg/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMudHVyYm9sb2dv/LmNvbS9ibG9nL2Vu/LzIwMTkvMDcvMTkw/ODUxMjIvVGhyZWUt/QmFycy1hZGlkYXMt/bG9nby0xLmpwZw" class="card-imgs" alt="...">
+            <div class="card-body">
+              <p class="card-text">Adidas</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://imgs.search.brave.com/KS5VN_IAcAHrwRux9p6IW5AGu4T0ah8HkIH5c98LXcw/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9wZW5q/aS5jby93cC1jb250/ZW50L3VwbG9hZHMv/MjAxOS8wNS9uaWtl/LWNsb3RoaW5nLWJy/YW5kLWxvZ28taWRl/YXMuanBn" class="card-imgs" alt="...">
+            <div class="card-body">
+              <p class="card-text">Nike</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://imgs.search.brave.com/vHO9EJPQV1e-fnawzKLXkTHhlBlS043633O9mSrCK-Y/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzE2L2Zm/LzZlLzE2ZmY2ZWNm/Zjk0NDBlOGY0NDhk/YTMxNzZjNmVkMmIz/LmpwZw" class="card-imgs" alt="...">
+            <div class="card-body">
+              <p class="card-text">Zara</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://imgs.search.brave.com/JKAzgqe1hraKN4WQ5AZbPK1RpeCOul_ulNeKGXxY30w/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMudHVyYm9sb2dv/LmNvbS9ibG9nL2Vu/LzIwMjAvMDEvMTkw/ODQ3MTIvbGV2aXMt/cHJpbWFyeS1sb2dv/LnBuZw" class="card-imgs" alt="...">
+            <div class="card-body">
+              <p class="card-text">Levis</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://imgs.search.brave.com/lzwDuLfqXM1OzrBvkDjg8ArqAdKHtERdta9BY_Rnt3I/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMudHVyYm9sb2dv/LmNvbS9ibG9nL2Vu/LzIwMTkvMTEvMTkw/ODQ5MTQvUHVtYS1s/b2dvLnBuZw " class="card-imgs" alt="...">
+            <div class="card-body">
+              <p class="card-text">puma</p>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+        <br><br>
+
+        <!-- productsmens -->
+          
+      <section id="mens"> 
+        <div class="container mt-4">
+          <h2 class="text-center mb-4">Featured Products</h2>
+          <div class="row ">
+              <!-- Product 1 -->
+              <div class="col-md-4">
+                  <div class="product-card position-relative shadow-lg">
+                      <span class="sale-badge">Sale:01</span>
+                      <img src="https://imgs.search.brave.com/dNhSYdo3D_0z64PLXOAJNOPx6Lw7llv8sEYPwwPU7ww/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9zaG9w/a3luYWguY29tL2Nk/bi9zaG9wL2ZpbGVz/L2YzdHh5emh4Lmpw/Zz92PTE3MDkxMTA1/NTkmd2lkdGg9MTIw/MA"alt="Product 1">
+                      <span class="wishlist"><i class="fa-regular fa-heart wishlist-icon" onclick="toggleWishlist()"></i></span>
+                      <div class="p-3">
+                          <h5>Wedding wear kurta set for men </h5>
+                          <p>Men | Classy</p>
+                          <p><s>1799/-</s> <strong class="text-danger">1599/-</strong></p>
+                          <button class="btns btn-danger">Add to Cart  </button>
+                          <button class="buy">Buy Now</button>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                <div class="product-card position-relative shadow-lg">
+                    <span class="sale-badge">Sale:02</span>
+                    <img src="https://imgs.search.brave.com/pUZv2OrJtTg0dhSiL6LOofUT_ueXDuA_5gPUwOaTklM/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NDE2ZVZqSFBKUEwu/anBn" alt="Product 1">
+                    <span class="wishlist"><i class="fa-regular fa-heart wishlist-icons" onclick="toggleWishlists()"></i></span>
+                    <div class="p-3">
+                        <h5>Oversized t-shirts combo for men</h5>
+                        <p>Men | puma</p>
+                        <p><s>799/-</s> <strong class="text-danger">599/-</strong></p>
+                        <button class="btns btn-danger">Add to Cart  </button>
+                        <button class="buy">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+             
+              <!-- Product 3 -->
+              <div class="col-md-4">
+                  <div class="product-card position-relative shadow-lg">
+                      <span class="sale-badge">Sale:03</span>
+                      <img src="https://imgs.search.brave.com/dsJGYq6CSjEe0n2i26HKkDPg4PtLZDWlRc4cJlnEWE0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9mYWN0/b3J5LmpjcmV3LmNv/bS9zNy1pbWctZmFj/YWRlL0s4NjAxX1BB/NjE3OF9tP2ZtdD1q/cGVnJnFsdD05MCww/JnJlc01vZGU9c2hh/cnAmb3BfdXNtPS4x/LDAsMCwwJndpZD02/MzYmaGVpPTYzNg.jpeg" alt="Product 3">
+                      <span class="wishlist"><i class="fa-regular fa-heart wishlist-iconss" onclick="toggleWishlistss()"></i></span>
+                      <div class="p-3">
+                          <h5>Thompson blazer for men from Nike</h5>
+                          <p>Men | Nike</p>
+                          <p><s>1999/-</s> <strong class="text-danger">899/-</strong></p>
+                          <button class="btns btn-danger ">Add to Cart</button>
+                          <button class="buy">Buy Now</button>
+                      </div>
+                  </div>
+              </div>
+            </section>
+
+            <section id="womens"> 
+              <div class="container mt-4">
+                <!-- <h2 class="text-center mb-4">Featured Products</h2> -->
+                <div class="row">
+                    <!-- Product 1 -->
+                    <div class="col-md-4">
+                        <div class="product-card position-relative shadow-lg">
+                            <span class="sale-badge">Sale:01</span>
+                            <img src="https://imgs.search.brave.com/i4QUJHc5whMsEX_hdzz_jmTgBiQStO_VcLnfE4vxgCE/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9nYXlh/dGhyaXNhcmVlcy5j/b20vY2RuL3Nob3Av/cHJvZHVjdHMvOC0x/OC5qcGc_dj0xNjY5/NjU4NzMwJndpZHRo/PTgzMA" alt="Product 1">
+                            <span class="wishlist"><i class="fa-regular fa-heart wishlist-iconsak" onclick="toggleWishlistsak()"></i></span>
+                            <div class="p-3">
+                                <h5>Floral pink kurthi set for girls</h5>
+                                <p>Women | </p>
+                                <p><s>699/-</s> <strong class="text-danger">499/-</strong></p>
+                                <button class="btns btn-danger">Add to Cart  </button>
+                                <button class="buy">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="product-card position-relative shadow-lg">
+                          <span class="sale-badge">Sale:02</span>
+                          <img src="https://imgs.search.brave.com/xhFXPONEozK2taGlLSIRMYrziD09zfWkYExxg7OdlOU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/c2hvcGlmeS5jb20v/cy9maWxlcy8xLzA0/MTIvMDAwMi81NzUx/L2ZpbGVzL3NldmVu/XzEwMjR4MTAyNF80/YWJhY2Q0ZC1lM2I5/LTQxODUtOTlmZi01/NjU5ZmRmMjU2Nzhf/NDgweDQ4MC53ZWJw/P3Y9MTY2MTU3NzUx/Nw" alt="Product 1">
+                          <span class="wishlist"><i class="fa-regular fa-heart wishlist-iconpra" onclick="toggleWishlistpra()"></i></span>
+                          <div class="p-3">
+                              <h5>Party wear Anarkali for women</h5>
+                              <p>Kids | Adidas</p>
+                              <p><s>1599/-</s> <strong class="text-danger">1299/-</strong></p>
+                              <button class="btns btn-danger">Add to Cart  </button>
+                              <button class="buy">Buy Now</button>
+                          </div>
+                      </div>
+                  </div>
+                   
+                    <!-- Product 3 -->
+                    <div class="col-md-4">
+                      <div class="product-card position-relative shadow-lg">
+                          <span class="sale-badge">Sale:03</span>
+                          <img src="https://imgs.search.brave.com/BMfyr7FgA96WTVJ5rPROoJDhxKmold1k58qnuiCTyGo/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLmV0/c3lzdGF0aWMuY29t/LzIyMjI5MjEwL3Iv/aWwvYTg1NjRhLzM3/ODEyNDk1MTQvaWxf/NjAweDYwMC4zNzgx/MjQ5NTE0X2cwdzIu/anBn" alt="Product 1">
+                          <span class="wishlist"><i class="fa-regular fa-heart wishlist-iconash" onclick="toggleWishlistash()"></i></span>
+                          <div class="p-3">
+                              <h5>party wear Palazzo set for girls</h5>
+                              <p>Kids | Adidas</p>
+                              <p><s>1199/-</s> <strong class="text-danger">999/-</strong></p>
+                              <button class="btns btn-danger">Add to Cart  </button>
+                              <button class="buy">Buy Now</button>
+                          </div>
+                      </div>
+                  </div>
+                  </section>
+
+
+                  <section id="kids"> 
+                    <div class="container mt-4">
+                      <!-- <h2 class="text-center mb-4">Featured Products</h2> -->
+                      <div class="row">
+                          <!-- Product 1 -->
+                          <div class="col-md-4">
+                              <div class="product-card position-relative shadow-lg">
+                                  <span class="sale-badge">Sale:01</span>
+                                  <img src="https://imgs.search.brave.com/JNeopXOLbpEtBK7VTWkhm6zBA497FzN3SXT70rlyHfU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2MyL2Nl/LzEwL2MyY2UxMGM0/NTgyMWI4MDNkNzNh/MGE5YTMyMmI3ZWI4/LmpwZw" alt="Product 1">
+                                  <span class="wishlist"><i class="fa-regular fa-heart wishlist-iconu" onclick="toggleWishlistu()"></i></span>
+                                  <div class="p-3">
+                                      <h5>Denim Jacket and white T-shirt combo for kids</h5>
+                                      <p>Kids | Adidas</p>
+                                      <p><s>799/-</s> <strong class="text-danger">599/-</strong></p>
+                                      <button class="btns btn-danger">Add to Cart  </button>
+                                      <button class="buy">Buy Now</button>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="product-card position-relative shadow-lg">
+                                <span class="sale-badge">Sale:02</span>
+                                <img src="https://imgs.search.brave.com/Hg0T3CKehnlqipuu7Fqngx1uW06tVuE8ChjyTMnZ_Ug/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9jZG4x/MS5iaWdjb21tZXJj/ZS5jb20vcy1tdWtz/aGpranR5L2ltYWdl/cy9zdGVuY2lsLzUw/MHg2NTkvcHJvZHVj/dHMvMTAwMy81MTkx/LzFfM2RkOWQ5NGQt/OTMyMi00ZWRlLWFh/YjAtOTE4MWZkN2Y2/YTA4X18zMjI0NC4x/NzIwMDc1NTQ1Lmpw/Zz9jPTE
+                                " alt="Product 3">
+                                <span class="wishlist"><i class="fa-regular fa-heart wishlist-iconx" onclick="toggleWishlistx()"></i></span>
+                                <div class="p-3">
+                                    <h5>Blue umberella frok for girls under 14 years of age</h5>
+                                    <p>kids |</p>
+                                    <p><s>499/-</s> <strong class="text-danger">299/-</strong></p>
+                                    <button class="btns btn-danger ">Add to Cart</button>
+                                    <button class="buy">Buy Now</button>
+                                </div>
+                            </div>
+                        </div>
+                         
+                          <!-- Product 3 -->
+                          <div class="col-md-4">
+                              <div class="product-card position-relative shadow-lg">
+                                  <span class="sale-badge">Sale:03</span>
+                                  <img src="https://imgs.search.brave.com/kSzaFxTMqB12CdC085kEWqBHbVNd6PyvH_ZX1nNK3rU/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFBbTJUV1lFZEwu/anBn" alt="Product 3">
+                                  <span class="wishlist"><i class="fa-regular fa-heart wishlist-icona" onclick="toggleWishlista()"></i></span>
+                                  <div class="p-3">
+                                      <h5>Night dress combo for boy kids under 12 years</h5>
+                                      <p>kids |</p>
+                                      <p><s>399/-</s> <strong class="text-danger">249/-</strong></p>
+                                      <button class="btns btn-danger ">Add to Cart</button>
+                                      <button class="buy">Buy Now</button>
+                                  </div>
+                                  </div>
+                              </div>
+                          </div>
+                        </section>            
+              
+          </div>
+      </div>
+      
+      <script>
+        function toggleWishlist() {
+            let icon = document.querySelector(".wishlist-icon");
+
+            if (icon.classList.contains("active")) {
+                icon.classList.remove("active");
+                icon.classList.replace("fa-solid", "fa-regular"); // Heart outline ki revert cheyyadam
+                // alert("Removed from Wishlist!");
+            } else {
+                icon.classList.add("active");
+                icon.classList.replace("fa-regular", "fa-solid"); // Solid heart lo change avuthundi
+                // alert("Added to Wishlist!");
+            }
+        }
+
+        function toggleWishlists() {
+            let icon = document.querySelector(".wishlist-icons");
+
+            if (icon.classList.contains("active")) {
+                icon.classList.remove("active");
+                icon.classList.replace("fa-solid", "fa-regular"); // Heart outline ki revert cheyyadam
+                // alert("Removed from Wishlist!");
+            } else {
+                icon.classList.add("active");
+                icon.classList.replace("fa-regular", "fa-solid"); // Solid heart lo change avuthundi
+                // alert("Added to Wishlist!");
+            }
+        }
+        function toggleWishlistss() {
+            let icon = document.querySelector(".wishlist-iconss");
+
+            if (icon.classList.contains("active")) {
+                icon.classList.remove("active");
+                icon.classList.replace("fa-solid", "fa-regular"); // Heart outline ki revert cheyyadam
+                // alert("Removed from Wishlist!");
+            } else {
+                icon.classList.add("active");
+                icon.classList.replace("fa-regular", "fa-solid"); // Solid heart lo change avuthundi
+                // alert("Added to Wishlist!");
+            }
+        }
+        function toggleWishlistsak() {
+            let icon = document.querySelector(".wishlist-iconsak");
+
+            if (icon.classList.contains("active")) {
+                icon.classList.remove("active");
+                icon.classList.replace("fa-solid", "fa-regular"); // Heart outline ki revert cheyyadam
+                // alert("Removed from Wishlist!");
+            } else {
+                icon.classList.add("active");
+                icon.classList.replace("fa-regular", "fa-solid"); // Solid heart lo change avuthundi
+                // alert("Added to Wishlist!");
+            }
+        }
+        function toggleWishlistpra() {
+            let icon = document.querySelector(".wishlist-iconpra");
+
+            if (icon.classList.contains("active")) {
+                icon.classList.remove("active");
+                icon.classList.replace("fa-solid", "fa-regular"); // Heart outline ki revert cheyyadam
+                // alert("Removed from Wishlist!");
+            } else {
+                icon.classList.add("active");
+                icon.classList.replace("fa-regular", "fa-solid"); // Solid heart lo change avuthundi
+                // alert("Added to Wishlist!");
+            }
+        }
+        function toggleWishlistash() {
+            let icon = document.querySelector(".wishlist-iconash");
+
+            if (icon.classList.contains("active")) {
+                icon.classList.remove("active");
+                icon.classList.replace("fa-solid", "fa-regular"); // Heart outline ki revert cheyyadam
+                // alert("Removed from Wishlist!");
+            } else {
+                icon.classList.add("active");
+                icon.classList.replace("fa-regular", "fa-solid"); // Solid heart lo change avuthundi
+                // alert("Added to Wishlist!");
+            }
+        }
+        function toggleWishlistu() {
+            let icon = document.querySelector(".wishlist-iconu");
+
+            if (icon.classList.contains("active")) {
+                icon.classList.remove("active");
+                icon.classList.replace("fa-solid", "fa-regular"); // Heart outline ki revert cheyyadam
+                // alert("Removed from Wishlist!");
+            } else {
+                icon.classList.add("active");
+                icon.classList.replace("fa-regular", "fa-solid"); // Solid heart lo change avuthundi
+                // alert("Added to Wishlist!");
+            }
+        }
+        function toggleWishlistx() {
+            let icon = document.querySelector(".wishlist-iconx");
+
+            if (icon.classList.contains("active")) {
+                icon.classList.remove("active");
+                icon.classList.replace("fa-solid", "fa-regular"); // Heart outline ki revert cheyyadam
+                // alert("Removed from Wishlist!");
+            } else {
+                icon.classList.add("active");
+                icon.classList.replace("fa-regular", "fa-solid"); // Solid heart lo change avuthundi
+                // alert("Added to Wishlist!");
+            }
+        }
+        function toggleWishlista() {
+            let icon = document.querySelector(".wishlist-icona");
+
+            if (icon.classList.contains("active")) {
+                icon.classList.remove("active");
+                icon.classList.replace("fa-solid", "fa-regular"); // Heart outline ki revert cheyyadam
+                // alert("Removed from Wishlist!");
+            } else {
+                icon.classList.add("active");
+                icon.classList.replace("fa-regular", "fa-solid"); // Solid heart lo change avuthundi
+                // alert("Added to Wishlist!");
+            }
+        }
+    </script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
